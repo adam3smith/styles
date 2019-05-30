@@ -114,8 +114,8 @@
   </citation>
   <bibliography et-al-min="11" et-al-use-first="10" second-field-align="flush">
     <layout>
-      <text variable="citation-number" suffix=". "/>
-      <text macro="author"/>
+      <text variable="citation-nmber" suffix=". "/>
+      <text macro="author" font-weight="bold"/>
       <choose>
         <if type="bill book thesis graphic legal_case motion_picture report song" match="any">
           <text macro="edition" prefix=" " suffix=" "/>
@@ -142,9 +142,9 @@
             </date>
           </group>
           <group suffix=".">
-            <text variable="volume" prefix="V. " suffix=". "/>
-            <text variable="issue" prefix="№ " suffix=". "/>
-            <text variable="page" prefix="P. "/>
+            <text variable="volume" prefix=" " suffix=". "/>
+            <text variable="issue" prefix="no. " suffix=". "/>
+            <text variable="page" prefix=" "/>
           </group>
         </else>
       </choose>
